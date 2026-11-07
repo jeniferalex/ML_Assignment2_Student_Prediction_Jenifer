@@ -202,5 +202,32 @@ ML_Assignment2/
 
    ```bash
    pip install -r requirements.txt
+   ```
+
+3. Run the Streamlit application:
+
+   ```bash
+   streamlit run app.py
+   ```
+
+4. Open the application in the browser.
+5. Upload a labelled CSV file containing all required input features and the `Target` column.
+6. Select a classification model to view its evaluation results.
+
+The application uses the saved trained models and does not retrain them during evaluation.
+
+## 13. Conclusion
+
+This project implemented and compared five machine learning classification algorithms for predicting student academic outcomes.
+
+Among the evaluated models, Logistic Regression achieved the best overall performance, followed by Support Vector Machine. Gaussian Naive Bayes showed comparatively lower performance on this dataset.
+
+The Streamlit application provides an interactive way to evaluate the saved models using an uploaded test dataset. The project demonstrates the use of data preprocessing, classification algorithms and evaluation metrics in an educational prediction task.
+
+1. Clone or download the GitHub repository.
+2. Install the required libraries:
+
+   ```bash
+   pip install -r requirements.txt
     ├── naive_bayes.joblib
     └── support_vector_machine.joblib
