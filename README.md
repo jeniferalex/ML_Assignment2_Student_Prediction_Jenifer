@@ -178,6 +178,7 @@ ML_Assignment2/
     └── support_vector_machine.joblib
 ```
 **GitHub Repository:** https://github.com/your-username/ML_Assignment2_Student_Prediction
+**Live Streamlit App:**:https://mlassignment2studentpredictionjenifer-x5ymxyzkyukrpekrs9al9b.streamlit.app/
 **File descriptions:**
 - `app.py` – Source code for the Streamlit application.
 - `ML_Assignment2.ipynb` – Notebook containing data analysis, preprocessing, model training, evaluation and comparison.
