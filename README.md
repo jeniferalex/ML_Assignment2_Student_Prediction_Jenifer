@@ -20,7 +20,7 @@ The dataset contains student information related to personal background, admissi
 - Number of input features: 36
 - Target variable: `Target`
 - Number of target classes: 3
-- Data source: - Data source: [UCI Machine Learning Repository – Student Dropout and Academic Success](https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success)
+- **Data source:** [UCI Machine Learning Repository – Student Dropout and Academic Success](https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success)
 
 The target variable contains three categories:
 
@@ -179,6 +179,44 @@ ML_Assignment2/
 ```
 
 **File descriptions:**
+- `app.py` – Source code for the Streamlit application.
+- `ML_Assignment2.ipynb` – Notebook containing data analysis, preprocessing, model training, evaluation and comparison.
+- `data.csv` – Original dataset obtained from the UCI Machine Learning Repository.
+- `test_data.csv` – Test dataset used to evaluate the trained models.
+- `requirements.txt` – List of Python libraries required to run the project.
+- `README.md` – Project documentation.
+- `model/` – Folder containing the five trained classification models and their preprocessing pipelines.
+
+## 11. Problem Statement
+
+The objective of this project is to develop and evaluate machine learning classification models to predict student academic outcomes using personal, academic and socio-economic information.
+
+The models classify students into three categories: Dropout, Enrolled and Graduate. Five classification algorithms are compared using multiple evaluation metrics to identify the most suitable model.
+
+## 12. How to Run the Project
+
+1. Clone or download the GitHub repository.
+2. Install the required libraries:
+
+   `pip install -r requirements.txt`
+
+3. Run the Streamlit application:
+
+   `streamlit run app.py`
+
+4. Open the application in the browser.
+5. Upload a labelled CSV file containing all required input features and the `Target` column.
+6. Select a classification model to view its evaluation results.
+
+The application uses the saved trained models and does not retrain them during evaluation.
+
+## 13. Conclusion
+
+This project implemented and compared five machine learning classification algorithms for predicting student academic outcomes.
+
+Among the evaluated models, Logistic Regression achieved the best overall performance, followed by Support Vector Machine. Gaussian Naive Bayes showed comparatively lower performance on this dataset.
+
+The Streamlit application provides an interactive way to evaluate the saved models using an uploaded test dataset. The project demonstrates the use of data preprocessing, classification algorithms and evaluation metrics in an educational prediction task.
 
 - `app.py` – Source code for the Streamlit application.
 - `ML_Assignment2.ipynb` – Notebook containing data analysis,
