@@ -193,4 +193,14 @@ ML_Assignment2/
     ├── decision_tree.joblib
     ├── knn.joblib
     ├── naive_bayes.joblib
+    ├── support_vector_machine.joblib
+
+## 12. How to Run the Project
+
+1. Clone or download the GitHub repository.
+2. Install the required libraries:
+
+   ```bash
+   pip install -r requirements.txt
+    ├── naive_bayes.joblib
     └── support_vector_machine.joblib
