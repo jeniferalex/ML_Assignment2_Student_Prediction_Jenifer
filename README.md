@@ -154,7 +154,7 @@ The application loads the previously saved models and their preprocessing pipeli
 
 The uploaded CSV file must contain all required input features along with the `Target` column.
 
-## 10. Saved Models and Project Structure
+2## 10. Saved Models and Project Structure
 
 The trained models were saved using Joblib so that they could be reused by the Streamlit application.
 
@@ -177,7 +177,7 @@ ML_Assignment2/
     ├── naive_bayes.joblib
     └── support_vector_machine.joblib
 ```
-
+**GitHub Repository:** https://github.com/your-username/ML_Assignment2_Student_Prediction
 **File descriptions:**
 - `app.py` – Source code for the Streamlit application.
 - `ML_Assignment2.ipynb` – Notebook containing data analysis, preprocessing, model training, evaluation and comparison.
